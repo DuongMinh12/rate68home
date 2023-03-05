@@ -126,6 +126,7 @@ const List<String> listdata = <String>['English', 'France'];
 const List<String> listcurrence = <String>['USD', 'VND'];
 const List<Icon> listicon = <Icon>[Icon(Icons.light_mode),Icon(Icons.bedtime_outlined)];
 
+//language
 class ButtonDropDown extends StatefulWidget {
   const ButtonDropDown({Key? key}) : super(key: key);
 
@@ -154,6 +155,7 @@ class _ButtonDropDownState extends State<ButtonDropDown> {
   }
 }
 
+//currency
 class ButtonCurrencyDropDown extends StatefulWidget {
   const ButtonCurrencyDropDown({Key? key}) : super(key: key);
 
@@ -182,7 +184,7 @@ class _ButtonCurrencyDropDownState extends State<ButtonCurrencyDropDown> {
   }
 }
 
-
+//icon
 class ButtonIconDropDown extends StatefulWidget {
   const ButtonIconDropDown({Key? key}) : super(key: key);
 
